@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DocumentCellID" rowHeight="250" id="KGk-i7-Jjw" customClass="DocumentCell" customModule="Resource_Coach" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qhk-ag-I0p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aZq-Qc-MKJ">
+                                <rect key="frame" x="5" y="5" width="365" height="240"/>
+                            </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="q7P-RV-xje">
+                                <rect key="frame" x="177.5" y="115" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="rjw-qy-Dwx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="B7F-lX-7sq">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="rjw-qy-Dwx" firstAttribute="top" secondItem="qhk-ag-I0p" secondAttribute="top" id="1yv-el-52s"/>
+                            <constraint firstItem="q7P-RV-xje" firstAttribute="centerX" secondItem="aZq-Qc-MKJ" secondAttribute="centerX" id="4Nb-Ng-zAT"/>
+                            <constraint firstItem="aZq-Qc-MKJ" firstAttribute="top" secondItem="qhk-ag-I0p" secondAttribute="top" constant="5" id="54C-gp-Omt"/>
+                            <constraint firstAttribute="bottom" secondItem="rjw-qy-Dwx" secondAttribute="bottom" id="CSS-Wp-usF"/>
+                            <constraint firstItem="aZq-Qc-MKJ" firstAttribute="leading" secondItem="qhk-ag-I0p" secondAttribute="leading" constant="5" id="WSR-Es-iQ9"/>
+                            <constraint firstAttribute="trailing" secondItem="rjw-qy-Dwx" secondAttribute="trailing" id="Yr5-oC-G7L"/>
+                            <constraint firstItem="q7P-RV-xje" firstAttribute="centerY" secondItem="aZq-Qc-MKJ" secondAttribute="centerY" id="exV-fd-vei"/>
+                            <constraint firstAttribute="trailing" secondItem="aZq-Qc-MKJ" secondAttribute="trailing" constant="5" id="tF6-Jk-FUe"/>
+                            <constraint firstAttribute="bottom" secondItem="aZq-Qc-MKJ" secondAttribute="bottom" constant="5" id="vKS-gg-mGR"/>
+                            <constraint firstItem="rjw-qy-Dwx" firstAttribute="leading" secondItem="qhk-ag-I0p" secondAttribute="leading" id="ywk-eu-nv0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="qhk-ag-I0p" secondAttribute="trailing" id="058-pk-Nk3"/>
+                    <constraint firstItem="qhk-ag-I0p" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="2zU-RU-bZj"/>
+                    <constraint firstAttribute="bottom" secondItem="qhk-ag-I0p" secondAttribute="bottom" id="Ksk-WP-U6j"/>
+                    <constraint firstItem="qhk-ag-I0p" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="sh1-Sa-SFO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="containerView" destination="qhk-ag-I0p" id="7pQ-h4-imE"/>
+                <outlet property="imgCV" destination="rjw-qy-Dwx" id="9H6-mP-SEv"/>
+                <outlet property="loadView" destination="aZq-Qc-MKJ" id="l8y-6n-uSC"/>
+                <outlet property="myLoader" destination="q7P-RV-xje" id="Mmx-UG-QGe"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="72.991071428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

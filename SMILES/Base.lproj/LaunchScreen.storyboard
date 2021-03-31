@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SpJ-64-hsC">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="mAM-Km-w4J">
+            <objects>
+                <viewController id="SpJ-64-hsC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jsJ-TD-fqF"/>
+                        <viewControllerLayoutGuide type="bottom" id="YoO-P2-4hX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J3Y-3F-QWS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashscreen" translatesAutoresizingMaskIntoConstraints="NO" id="z0K-Ds-fcO">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="z0K-Ds-fcO" secondAttribute="trailing" id="PSc-QC-Vh4"/>
+                            <constraint firstItem="z0K-Ds-fcO" firstAttribute="top" secondItem="J3Y-3F-QWS" secondAttribute="top" id="Qra-KU-w5c"/>
+                            <constraint firstItem="z0K-Ds-fcO" firstAttribute="leading" secondItem="J3Y-3F-QWS" secondAttribute="leading" id="i1E-cX-G1V"/>
+                            <constraint firstItem="YoO-P2-4hX" firstAttribute="top" secondItem="z0K-Ds-fcO" secondAttribute="bottom" id="uBl-uY-sQw"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kgx-b3-dNp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="360" y="348.57571214392806"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splashscreen" width="540" height="960"/>
+    </resources>
+</document>

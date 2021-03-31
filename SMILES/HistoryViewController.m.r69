@@ -1,0 +1,57 @@
+//
+//  HistoryViewController.m
+//  DedaaBox
+//
+//  Created by BiipByte on 16/08/17.
+//  Copyright © 2017 Biipmi. All rights reserved.
+//
+
+#import "HistoryViewController.h"
+#import "REFrostedViewController.h"
+
+@interface HistoryViewController ()
+
+@end
+
+@implementation HistoryViewController
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+#pragma mark -Button Menu Tapped
+- (IBAction)btnMenuTapped:(id)sender
+{
+    [self.view endEditing:YES];
+    [self.frostedViewController.view endEditing:YES];
+    [self.frostedViewController presentMenuViewController];
+}
+- (void)panGestureRecognized:(UIPanGestureRecognizer *)sender
+{
+    [self.view endEditing:YES];
+    [self.frostedViewController.view endEditing:YES];
+    if (_disablePanGesture)
+    {
+        return;
+    }
+    [self.frostedViewController panGestureRecognized:sender];
+}
+
+@end

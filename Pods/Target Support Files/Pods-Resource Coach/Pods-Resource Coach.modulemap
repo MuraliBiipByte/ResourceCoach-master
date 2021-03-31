@@ -1,0 +1,6 @@
+module Pods_Resource_Coach {
+  umbrella header "Pods-Resource Coach-umbrella.h"
+
+  export *
+  module * { export * }
+}

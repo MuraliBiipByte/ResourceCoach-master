@@ -1,0 +1,71 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "bc16062c-d503-f344-b21e-200ac45794f8++1116+++1E35618",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c4c8f689-4e16-a040-8534-c16ef4d97d53++4908+++2CA0F23" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "branches",
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "trunk"
+    },
+    "4782b9de-4203-8c4c-94fb-d020c41d039f++4908+++519C1A0" : {
+
+    },
+    "4782b9de-4203-8c4c-94fb-d020c41d039f++4908+++830802C" : {
+
+    },
+    "bc16062c-d503-f344-b21e-200ac45794f8++1116+++1E35618" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "branches",
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "trunk"
+    },
+    "bc16062c-d503-f344-b21e-200ac45794f8++1116+++8E10AD8" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "branches",
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "trunk"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "c4c8f689-4e16-a040-8534-c16ef4d97d53++4908+++2CA0F23" : 9223372036854775807,
+    "4782b9de-4203-8c4c-94fb-d020c41d039f++4908+++519C1A0" : 9223372036854775807,
+    "4782b9de-4203-8c4c-94fb-d020c41d039f++4908+++830802C" : 9223372036854775807,
+    "bc16062c-d503-f344-b21e-200ac45794f8++1116+++1E35618" : 9223372036854775807,
+    "bc16062c-d503-f344-b21e-200ac45794f8++1116+++8E10AD8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0B9D17F6-2756-4166-B9EF-9DF210CB5F01",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "c4c8f689-4e16-a040-8534-c16ef4d97d53++4908+++2CA0F23" : "..\/..\/xprienzSMILES\/SMILES",
+    "4782b9de-4203-8c4c-94fb-d020c41d039f++4908+++519C1A0" : "SMILES\/",
+    "4782b9de-4203-8c4c-94fb-d020c41d039f++4908+++830802C" : "SMILES\/",
+    "bc16062c-d503-f344-b21e-200ac45794f8++1116+++1E35618" : "",
+    "bc16062c-d503-f344-b21e-200ac45794f8++1116+++8E10AD8" : "ooSmiles\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SMILES",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SMILES.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.0.200:81\/svn\/smilesIOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4782b9de-4203-8c4c-94fb-d020c41d039f++4908+++519C1A0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.0.200:81\/svn\/smilesIOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4782b9de-4203-8c4c-94fb-d020c41d039f++4908+++830802C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.0.200:81\/svn\/smilesIOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "bc16062c-d503-f344-b21e-200ac45794f8++1116+++1E35618"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.0.200:81\/svn\/ooSmiles",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "bc16062c-d503-f344-b21e-200ac45794f8++1116+++8E10AD8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.0.200:81\/svn\/xprienzSmiles",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c4c8f689-4e16-a040-8534-c16ef4d97d53++4908+++2CA0F23"
+    }
+  ]
+}
